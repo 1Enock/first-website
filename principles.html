@@ -6,7 +6,76 @@
     <title>Document</title>
    
 </head>
-
+<style>
+    h1 {
+        color: black;
+        font-size: 32px;
+    }
+    p {
+        color: black;
+        font-size: 24px;
+    }
+    .principles-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    .principles-content article {
+        border: 1px solid black;
+        padding: 1em;
+        width: 30%;
+        transition: transform 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .principles-content article:hover {
+        transform: scale(1.05);
+    }
+    .navbar {
+        background-color: gray;
+        display: flex;
+    }
+    .navbar a {
+        color: black;
+        background-color: grey;
+        padding:  1em;
+        width: 100%;
+        position: sticky;
+        font-size: 24px;
+        align-items: center;
+    }
+    .navbar a:hover {
+        background-color: black;
+        color: white;
+    }
+    ul {
+        color: black;
+        font-size: 24px;
+    }
+   footer p {
+    background-color: lightgray;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 1em;
+}
+    .principles-content2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    .principles-content2 article {
+        border: 1px solid black;
+        padding: 1em;
+        width: 30%;
+        transition: transform 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .principles-content2 article:hover {
+        transform: scale(1.05);
+    }
+</style>
 <body>
      <nav class="navbar">
         <a href="index.html">Intro</a>
