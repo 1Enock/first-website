@@ -6,18 +6,6 @@
     <title>Enocksite</title>
 </head>
 <style>
-    h1 {
-        color: black;
-        font-size: 32px;
-    }
-    p {
-        color: black;
-        font-size: 24px;
-    }
-    li {
-        color: black;
-        font-size: 24px;
-    }
     .navbar {
         background-color: gray;
         display: flex;
@@ -28,27 +16,57 @@
         padding:  1em;
         width: 100%;
         position: sticky;
-        font-size: 24px;
-        align-items: center;
+       font-size: 24px;
+        align-items: center;   
     }
     .navbar a:hover {
         background-color: black;
-        color: white;
-    }
-    footer p {
-    background-color: lightgray;
+            color: white;
+     }
+    h1 {
     color: black;
-    font-size: medium;
+    font-size: 40px;
+    }  
+p {
+    color: black;
+    font-size: 24px;
+}
+.content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 1em;
+}
+#intro-content {
+    border: 1px solid black;
+    padding: 1em;
+    width: 20%;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#descrip-content {
+    border: 1px solid black;
+    padding: 1em;
+    width: 20%;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#intro-content:hover, #descrip-content:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: gray;
+    color: black;
     text-align: center;
     padding: 1em;
+    position: fixed;
+    width: 100%;
     bottom: 0;
+}
+
+
     
-}
-.future {
-    display: flex;
-    justify-content: space-around;
-    padding: 1em;
-}
+</style>
  </style>
 <body>
     
@@ -77,7 +95,7 @@
              <p> A fundamental concept in quantum mechanics.</p>
              <p> Atoms are important in the study of the quantum world</p>
              <p> Niels Bohr is one of the pioneers of quantum mechanics</p>
-            <img src="quantum2.jpeg" alt="Quantum Mechanics Image 2" width="470px" height="400px">
+            <img src="quantum2.jpeg" alt="Quantum Mechanics Image 2" width="480px" height="400px">
         </article>
         
                 
