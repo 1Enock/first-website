@@ -70,13 +70,34 @@ footer {
     transition: transform 0.3s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.img {
+    width: 100%;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.img:hover {
+    transform: scale(1.05);
+}
+.img.active {
+    transform: scale(2);
+    position: relative;
+    z-index: 10;
+}
+.all {
+     background-image: url('background.jpeg');
+        background-position: center;
+        
+        background-size: auto;
+        background-repeat: repeat-x;
+}
+
 
     
 </style>
  </style>
 <body>
     
-
+    <div class="all">
     <nav class="navbar">
         <a href="index.html">Intro</a>
         <a href="principles.html">Principles</a>
@@ -93,7 +114,7 @@ footer {
                 <p>It is the foundation of modern physics and field like quantum chem</p>
                 <p>It has also led to the better understanding of the microscopic world</p>
                 <p> One of the most challenging concepts ever</p>
-                <img src="quantum1.jpeg" alt="Quantum Mechanics Image 4" width="520px" height="400px">
+                <img src="quantum1.jpeg" alt="Quantum Mechanics Image 4" width="520px" height="400px" class="img">
         </article>
         <article id="descrip-content">
             <h2>What is Quantum Mechanics visualised</h2>
@@ -102,7 +123,8 @@ footer {
              <p> Atoms are important in the study of the quantum world</p>
              <p> Niels Bohr is one of the pioneers of quantum mechanics</p>
              <p> Quantum is a fascinating field</p>
-            <img src="quantum2.jpeg" alt="Quantum Mechanics Image 2" width="520px" height="400px">
+            <img src="quantum2.jpeg" alt="Quantum Mechanics Image 2" width="560px" height="450px" class="img">
+        </article>">
         </article>
         <article id="Intro2">
             <h2> The pioneers of Quantum Mechanics</h2>
@@ -110,14 +132,16 @@ footer {
             <p> Werner Heisenberg is another key figure in the development of quantum mechanics</p>
             <p> Erwin Schrödinger is also a significant contributor to the field</p>
             <p>Albert Einstein discovered the photoelectric effect, a key concept in quantum mechanics</p>
-            <img src="pioneers.jpeg" alt="Pioneers of Quantum Mechanics" width="520px" height="400px">
+            <img src="pioneers.jpeg" alt="Pioneers of Quantum Mechanics" width="520px" height="400px" class="img">
         </article>
         
                 
     </section>
+    
     <footer>
         <p>Copyright &copy; 2026Enocksite. All rights reserved.</p>
     </footer>
+    </div>
 </body> 
 
 </html>
