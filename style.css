@@ -1,0 +1,55 @@
+h1 {
+    color: black;
+    font-size: larger;
+}
+p {
+    color: black;
+    font-size: medium;
+}
+.navbar a {
+    color: orange
+    font-size: medium;
+    background-color: lightgray;
+    padding: 0.5em 1em;
+}
+.navbar a:hover {
+    background-color: red;
+}
+
+#intro-content h2 {
+    color: black;
+    font-size: larger;
+}
+#intro-content p {
+    color: blueviolet;
+    font-size: medium;
+}
+#intro-content img {
+    width: 100%;
+    
+}
+#intro-content {
+    border: 1px;
+    transition: transform 0.3s ease;
+
+}
+#descrip-content h2 {
+    color: black;
+    font-size: larger;
+}
+#descrip-content p {
+    color: blueviolet;
+    font-size: medium;
+}
+#descrip-content img {
+    width: 100%;
+    height: auto;
+}
+footer p {
+    background-color: lightgray;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 1em;
+}
+
