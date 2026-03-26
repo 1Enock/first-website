@@ -24,3 +24,6 @@ This webpage consists of three webpages namely:-
 ### Author
 My name is Enock Kibet
 GitHub link is https://github.com/1Enock
+
+### Contributors
+Enock Kibet is the only contributor to this project.
