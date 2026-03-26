@@ -7,14 +7,14 @@ The website has a html structure working with some inline css styling to design 
 
 ### Pages
 This webpage consists of three webpages namely:-
-            1. Home
-            2. Principles
-            3. Future
+          Home
+         Principles
+         Future
 
 ### How to run
-1.Fork the repository on GitHub
+1. Fork the repository on GitHub
 2. Clone the repository : git clone https://github.com/YOURUSERNAME/first-website.git
-3 Open the folder
+3. Open the folder
 4. Open all three html files :- index.html, principles.html and future.html
 
 ### Languages used
